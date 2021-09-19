@@ -1,0 +1,28 @@
+[
+  {
+    "type": "log",
+    "enabled": true,
+    "paths": [
+      "/home/afa4j/log/server/platform/*.log"
+    ],
+    "fields_under_root": true,
+    "fields": {
+      "type": "platform",
+      "pipeline_name": "afa_platform_pipeline_platform",
+      "index_name_prefix": "afa.platform.<domain>.channel-",
+      "topic": "afa.trade.<domain>.channel.proxy"
+    },
+    "multiline.pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2})",
+    "multiline.negate": true,
+    "multiline.match": "after",
+    "multiline.max_lines": 2000,
+    "multiline.timeout": "5s",
+    "max_bytes": 10485760,
+    "ignore_older": "48h",
+    "scan_frequency": "10s",
+    "clean_inactive": "49h",
+    "close_eof": false,
+    "harvester_limit": 0,
+    "close_inactive": "60s"
+  }
+]

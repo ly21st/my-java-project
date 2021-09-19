@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-proj" />
+        <module name="myproj" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apm-agent" target="1.6" />
+      <module name="apm-agent (1)" target="1.7" />
+      <module name="apm-agent (2)" target="1.6" />
+      <module name="apm-mysql-commons" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
