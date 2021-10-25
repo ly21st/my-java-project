@@ -72,6 +72,12 @@ config/delete-index.json
 .idea/**/dictionaries
 .idea/**/shelf
 
+myproj/.idea/**/workspace.xml
+myproj/.idea/**/tasks.xml
+myproj/.idea/**/usage.statistics.xml
+myproj/.idea/**/dictionaries
+myproj/.idea/**/shelf
+
 # Generated files
 .idea/**/contentModel.xml
 
