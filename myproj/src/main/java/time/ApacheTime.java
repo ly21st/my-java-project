@@ -35,8 +35,8 @@ public class ApacheTime {
 
 
     public void testDateFormat2() {
-//        String dateStr = "2019.01.08";
-        String dateStr = "2019-01-08";
+        String dateStr = "2019.01.08";
+//        String dateStr = "2019-01-08";
         DateTimeFormatter dateFormatter1 = DateTimeFormatter.ofPattern("yyyy.M.d");
         LocalDate historyDate = LocalDate.parse(dateStr, dateFormatter1);
 

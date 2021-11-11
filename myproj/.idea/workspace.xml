@@ -3,13 +3,17 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8389a16c-4f30-4eb3-816f-4fd6551b9f45" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="H:/java_project/skywalking/skywalking.git.v6.3.0.ver4/apm-sniffer/apm-sdk-plugin/mysql-common/target/" />
-    <ignored path="H:/java_project/skywalking/skywalking.git.v6.3.0.ver4/apm-sniffer/apm-agent/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="8389a16c-4f30-4eb3-816f-4fd6551b9f45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crazy/java/chap15/chap15_9/CharsetTransform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crazy/java/chap15/chap15_9/CharsetTransform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/time/ApacheTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/time/ApacheTime.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,102 +22,8 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/instrumentation/test1/Premain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/NumertPattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2266">
-              <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/time/ApacheTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/minio/FileUploader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar!/org/yaml/snakeyaml/Yaml.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar!/org/yaml/snakeyaml/nodes/Tag.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/yaml/test.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/java/jdk1.8.0_144/src.zip!/java/io/FileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/yaml/contact.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/generic/Apple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -147,6 +57,9 @@
       <dir>E:\mygit\logkeeper-middleware-idea\myproj\src\main\java\lambda</dir>
       <dir>H:\java_project_study\myproj\src\main\java</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -211,11 +124,6 @@
         <option name="userSettingsFile" value="E:\Java\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -233,12 +141,17 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="28" />
     <option name="y" value="381" />
     <option name="width" value="1766" />
     <option name="height" value="975" />
   </component>
+  <component name="ProjectId" id="20cuV3hxPPpzzwl2BOnocUAkAv2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -295,12 +208,16 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1631871893261" />
-    <property name="last_opened_file_path" value="E:/liyuan-github/geekbamg-java-my/myproj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -311,22 +228,12 @@
       <recent name="E:\mygit\logkeeper-middleware-idea\myproj\src\main\resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.NumertPattern">
+  <component name="RunManager" selected="Application.ApacheTime">
     <configuration name="ApacheTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="time.ApacheTime" />
-      <module name="my-proj" />
+      <module name="myproj" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="time.*" />
@@ -398,8 +305,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ApacheTime" />
       <item itemvalue="Application.DiscardServer" />
+      <item itemvalue="Application.ApacheTime" />
       <item itemvalue="Application.JsonOper" />
       <item itemvalue="Application.JsonToMapTest02" />
       <item itemvalue="Application.NumertPattern" />
@@ -407,14 +314,15 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApacheTime" />
         <item itemvalue="Application.NumertPattern" />
         <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.ApacheTime" />
         <item itemvalue="Application.JsonOper" />
         <item itemvalue="Application.JsonToMapTest02" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -517,13 +425,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://H:/java_project/skywalking/skywalking.git.v6.3.0.ver4/apm-sniffer/apm-agent/src/main/java/org/apache/skywalking/apm/agent/SkyWalkingAgent.java</url>
           <line>69</line>
-          <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/PlayWithCompiler/chap02/LexicalAnalysis.java</url>
           <line>86</line>
-          <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
