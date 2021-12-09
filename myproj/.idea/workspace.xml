@@ -8,13 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8389a16c-4f30-4eb3-816f-4fd6551b9f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/discard/DiscardServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/discard/DiscardServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/discard/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/discard/TimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netty/discard/TimeServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/FirstThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/RunnableThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread2/CallableThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread2/RunnableThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread3/CallableThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread_pool/ThreadPoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,15 +230,26 @@
       <recent name="E:\mygit\logkeeper-middleware-idea\myproj\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApacheTime">
-    <configuration name="ApacheTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="time.ApacheTime" />
+  <component name="RunManager" selected="Application.ThreadPoolTest">
+    <configuration name="CallableThreadTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread3.CallableThreadTest" />
       <module name="myproj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="time.*" />
+          <option name="PATTERN" value="thread3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CallableThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread2.CallableThreadTest" />
+      <module name="myproj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonOper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.JsonOper" />
-      <module name="my-proj" />
+    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread_pool.ThreadPoolTest" />
+      <module name="myproj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.*" />
+          <option name="PATTERN" value="thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,60 +278,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonToMapTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.JsonToMapTest02" />
-      <module name="my-proj" />
+    <configuration name="RunnableThreadTest.testLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myproj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.*" />
+          <option name="PATTERN" value="thread2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="thread2" />
+      <option name="MAIN_CLASS_NAME" value="thread2.RunnableThreadTest" />
+      <option name="METHOD_NAME" value="testLambda" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumertPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.NumertPattern" />
-      <module name="my-proj" />
+    <configuration name="RunnableThreadTest.testNoStatic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myproj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.*" />
+          <option name="PATTERN" value="thread2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringTest" />
-      <module name="my-proj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="thread2" />
+      <option name="MAIN_CLASS_NAME" value="thread2.RunnableThreadTest" />
+      <option name="METHOD_NAME" value="testNoStatic" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.DiscardServer" />
-      <item itemvalue="Application.ApacheTime" />
-      <item itemvalue="Application.JsonOper" />
-      <item itemvalue="Application.JsonToMapTest02" />
-      <item itemvalue="Application.NumertPattern" />
-      <item itemvalue="Application.StringTest" />
+      <item itemvalue="JUnit.RunnableThreadTest.testNoStatic" />
+      <item itemvalue="JUnit.RunnableThreadTest.testLambda" />
+      <item itemvalue="Application.CallableThreadTest" />
+      <item itemvalue="Application.CallableThreadTest (1)" />
+      <item itemvalue="Application.ThreadPoolTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApacheTime" />
-        <item itemvalue="Application.NumertPattern" />
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.JsonOper" />
-        <item itemvalue="Application.JsonToMapTest02" />
+        <item itemvalue="Application.ThreadPoolTest" />
+        <item itemvalue="Application.CallableThreadTest (1)" />
+        <item itemvalue="Application.CallableThreadTest" />
+        <item itemvalue="JUnit.RunnableThreadTest.testLambda" />
+        <item itemvalue="JUnit.RunnableThreadTest.testNoStatic" />
       </list>
     </recent_temporary>
   </component>
